@@ -15,7 +15,7 @@ I focus on Ethereum and Loom Network as the DApps.
 Loom Network SDK allows generating your own blockchain.  
 We can generate our own coins, assets, games, and services by using smart contracts.  
 Loom Network Team maintains one of the blockchains which is called [Plasma Chain](https://medium.com/loom-network/loom-plasmachain-staking-is-officially-live-how-to-stake-your-loom-and-help-secure-plasmachain-e321dc462674).  
-[Loom Network SDK : Official](https://loomx.io/developers/)  
+- [Loom Network SDK : Official](https://loomx.io/developers/)  
 
 ### Constitution
 [setup0000_all](https://github.com/zombietimes/setup0000_all) is the instruction script file to run the other script files.  
@@ -51,7 +51,7 @@ git clone https://github.com/zombietimes/setup0030_loomNetwork.git
 cd setup0030_loomNetwork
 sh ./ubuntuCmd_setupLoomNetwork.sh
 ```
-![setup0030_loomNetwork_0000.png]()  
+![setup0030_loomNetwork_0000](https://user-images.githubusercontent.com/50263232/57186191-6a4df100-6f15-11e9-8ad1-773ce39ae263.png)  
 
 ### Run Loom Network
 ```sh
@@ -59,7 +59,7 @@ sh ./ubuntuCmd_setupLoomNetwork.sh
 cd ~/dapps/loomNetwork
 ./loom run
 ```
-![setup0030_loomNetwork_0001.png]()  
+![setup0030_loomNetwork_0001](https://user-images.githubusercontent.com/50263232/57186198-7e91ee00-6f15-11e9-83db-2ead46e81e94.png)  
 The error message `Couldn't connect to any seeds` is shown  
 because of solo-mining.  
 No problem.  
@@ -70,7 +70,7 @@ No problem.
 [CTRL] + c
 lsof -i
 ```
-![setup0030_loomNetwork_0002.png]()  
+![setup0030_loomNetwork_0002](https://user-images.githubusercontent.com/50263232/57186204-9c5f5300-6f15-11e9-859b-a67940370ef5.png)  
 By using `lsof -i`, you can confirm the remaining process.  
 In the case of remaining, kill the process.  
 
@@ -107,7 +107,4 @@ Why?
 
 ## License
 BSD 3-Clause, see `LICENSE` file for details.  
-
----
-Produced by Zombie Times  
 
