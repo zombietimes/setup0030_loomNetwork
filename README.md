@@ -60,8 +60,7 @@ cd ~/dapps/loomNetwork
 ./loom run
 ```
 ![setup0030_loomNetwork_0001](https://user-images.githubusercontent.com/50263232/57186198-7e91ee00-6f15-11e9-83db-2ead46e81e94.png)  
-The error message `Couldn't connect to any seeds` is shown  
-because of solo-mining.  
+The error message `Couldn't connect to any seeds` is shown because of solo-mining.  
 No problem.  
 
 ### Stop Loom Network
